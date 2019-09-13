@@ -24,3 +24,11 @@ world = "world"
 hello_world = hello + " " + world
 print(hello_world)
 
+a,b = 3,5
+print(a,b)
+
+# Won't work
+int_one = 1
+int_two = 2
+string_one = "one"
+print(int_one + int_two + string_one)
